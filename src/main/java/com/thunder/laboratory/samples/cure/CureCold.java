@@ -18,7 +18,7 @@ public class CureCold extends AbstractEffect {
     }
 
     public CureCold(int duration, int power) {
-        super(Constants.ID_CURE_СOLD, duration, power, false, "Cure: Cold", SampleType.EFFECT_CURE);
+        super(Constants.ID_CURE_COLD, duration, power, false, "Cure: Cold", SampleType.EFFECT_CURE);
     }
 
     @Override

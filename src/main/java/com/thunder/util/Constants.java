@@ -72,7 +72,7 @@ public class Constants {
     public static int CURE_EFFECT_STANDART_DURATION;
 
     public static final int ID_CURE_BLEEDING = 100;
-    public static final int ID_CURE_СOLD = 101;
+    public static final int ID_CURE_COLD = 101;
     public static final int ID_CURE_FPOISON = 102;
     public static final int ID_CURE_BLACKBACTERIA = 103;
     public static final int ID_CURE_SWAMPBACTERIA = 104;

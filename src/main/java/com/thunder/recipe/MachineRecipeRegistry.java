@@ -33,7 +33,7 @@ public class MachineRecipeRegistry {
     private MachineRecipeRegistry(){
         //herbal station recipes
         HERBAL_STATION_RECIPE_MAP.put(new ItemStack[]{new ItemStack(BlockRegistry.LOTUS, 1), new ItemStack(Items.SPECKLED_MELON, 1)}, ID_CURE_BLEEDING);
-        HERBAL_STATION_RECIPE_MAP.put(new ItemStack[]{new ItemStack(ItemRegistry.YARROW_BUNCH, 1), ItemStack.EMPTY}, ID_CURE_СOLD);
+        HERBAL_STATION_RECIPE_MAP.put(new ItemStack[]{new ItemStack(ItemRegistry.YARROW_BUNCH, 1), ItemStack.EMPTY}, ID_CURE_COLD);
         HERBAL_STATION_RECIPE_MAP.put(new ItemStack[]{new ItemStack(ItemRegistry.DILL_BUNCH, 1), ItemStack.EMPTY}, ID_CURE_FPOISON);
         HERBAL_STATION_RECIPE_MAP.put(new ItemStack[]{new ItemStack(BlockRegistry.LIVING_BONE, 1), new ItemStack(Items.SPIDER_EYE, 1)}, ID_CURE_BLACKBACTERIA);
         HERBAL_STATION_RECIPE_MAP.put(new ItemStack[]{new ItemStack(BlockRegistry.CRYSTAL_FLOWER, 1), new ItemStack(Blocks.WATERLILY, 1)}, ID_CURE_SWAMPBACTERIA);
